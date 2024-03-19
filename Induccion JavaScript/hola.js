@@ -13,6 +13,7 @@ console.log(name, lastname);
 
 //arreglos
 let arrayLetters = ["Matias", "A"];
+//agregando a los arreglos
 arrayLetters.push("B");
 arrayLetters.push("C");
 arrayLetters.push("c");
