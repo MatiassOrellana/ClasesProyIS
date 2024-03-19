@@ -8,4 +8,4 @@ const name = "Matias";
 
 let lastname = "orellana";
 
-console.log(name + lastname);
+console.log(name, lastname);
