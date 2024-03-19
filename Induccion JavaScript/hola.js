@@ -5,6 +5,7 @@ console.log("hola mundo");
 
 const name = "Matias";
 //java script no tiene etipado string es una desventaja enorme
-name = "Laurel";
 
-console.log(name);
+let lastname = "orellana";
+
+console.log(name + lastname);
