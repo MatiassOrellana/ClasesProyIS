@@ -1,0 +1,6 @@
+* las historias estan incompletas, mandar un correo y decir las listas de validaciones
+solamente gregar validaciones al requerimiento, agregar cosas a la descripcion.
+* desde el viernes se ve react
+* tanto el backend como la condiguraacion movil con la pauta guiada
+* mas que teorico es practico, aplicar patrones de diseño, refosar type script.
+* live server tiene renderizado dinamico

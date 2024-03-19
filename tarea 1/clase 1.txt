@@ -1,0 +1,29 @@
+JavaScript:
+Tipos de variables:
+	*number
+	*String
+	*Boolean
+	*Null
+	*Undefined
+	*Object
+	*Array
+
+La forma de declarar variables:
+
+	* var: Ya no se utiliza, pero se puede encontrar en documentacion
+	* let: la posibilidad de ser reasignadas, ambito de bloque
+	* const: que no cambia
+
+Metodo typeOff "la variable"
+
+Callback: Es indirectamente para usar metodos de arreglo, los metodos asincronos, siempre
+los metodos callback, tiene la ventaja para completar una operacion asincronica.
+
+
+Metodos arrays: en java script, no hacer iteraciones.
+	* map: llamar una funcion en cada elemento del array, para transformar un elemento en una array
+	* include: devolvuendo true or false
+	* filter: me va devolver un nuevo array quitando algunas cosas, se resuelve en pocas lineas de codigo
+	* foreach: un callback y se puede hacer la informacion necesaria
+	* push: agrega elementos
+	* pop: elimina elemento
