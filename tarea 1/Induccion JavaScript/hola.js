@@ -68,9 +68,9 @@ const pedirComida = () => {
 
             const exito = true;
             if(exito){
-                resolve("Tu comida ha sido entregada");
+                return resolve("Tu comida ha sido entregada");
             } else {
-                reject("Hubo un problema con tu pedido");
+                return reject("Hubo un problema con tu pedido");
             }
         }, 3000);
     });
@@ -84,3 +84,24 @@ pedirComida()
             console.error(error);
         })
 
+//Async y await
+const procesamientoPedido = async() => {
+
+    const response = pedirComida();
+    console.log(response);
+
+}
+procesamientoPedido();
+
+//fetch API: Es una funcion integrada de javaScript
+//para realizar solicitudes HTTP asincronicas
+//es util para el manejo de datos
+
+/**
+ * response.json es un metodo que se utiliza para extraer y parsear el
+ * cuerpo en una respuesta HTTP que está en formato JSON a un objeto JavaScript
+ */
+
+fetch('https://jsonplaceholder.typicode.com/posts')
+    .then(response = response.json())
+    .then(json => console.log(json))
