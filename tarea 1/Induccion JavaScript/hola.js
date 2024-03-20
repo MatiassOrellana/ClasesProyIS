@@ -54,4 +54,10 @@ const desplegarNumero = async (numero) => {
 desplegarNumero(7);
 console.log(matias.name);
 
+//resolve se utiliza para indicar que la promesa se haya cumplido 
+//satisfactoriamente y se ejecuta la funcion then()
+
+//reject sirve para indicar si la promesa ha sido rechazada
+//se llama a la funcion catch()
+
 
