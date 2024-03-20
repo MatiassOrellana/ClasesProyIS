@@ -33,5 +33,13 @@ arrayLetters.forEach((name, index) => {
 const arrayFiltered = arrayLetters.filter((name) => name != "Matias");
     console.log(arrayFiltered);
 
+//nota la fecha no soporta el ambito disk
+function Persona(name){
+    this.name = name;
+}
+
+let matias = new Persona("Matias");
+console.log(matias.name); // Output: "Matias"
+
 
 
