@@ -41,5 +41,16 @@ function Persona(name){
 let matias = new Persona("Matias");
 console.log(matias.name); // Output: "Matias"
 
+//Promesas en JavaScript son un objeto que representa el resultado de una operacion asincrona
+const desplegarNumero = (numero) => {
+
+    setTimeout(() => {
+        console.log("Desplagar Número", numero);
+    }, 3000);
+
+}
+
+desplegarNumero(7);
+
 
 
