@@ -60,4 +60,27 @@ console.log(matias.name);
 //reject sirve para indicar si la promesa ha sido rechazada
 //se llama a la funcion catch()
 
+//Ej
+const pedirComida = () => {
+    return new Promise((resolve, reject) => {
+
+        setTimeout(() => {
+
+            const exito = true;
+            if(exito){
+                resolve("Tu comida ha sido entregada");
+            } else {
+                reject("Hubo un problema con tu pedido");
+            }
+        }, 3000);
+    });
+}
+
+pedirComida()
+        .then((response) => {
+            console.log(response);
+        })
+        .catch((error) => {
+            console.error(error);
+        })
 
